@@ -1,0 +1,11 @@
+#exec 
+scrapy crawl spider -o ip.json
+参照scrapy的数据导出
+IP地址过滤了cloudfaressl
+
+# cookie.ini 
+存放已登陆账号cookie中： _fofapro_ars_session=xxxxx  中的xxxxx
+为空则默认爬取一页
+
+#rules.ini 
+存放搜索规则，一行一个。

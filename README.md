@@ -1,5 +1,5 @@
 # fofa-IP-tool
-批量提取fofa查询到IP
+批量提取fofa查询结果（域名 IP title）
 
 # exec <br>
 scrapy crawl spider -o data.json<br>

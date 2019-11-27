@@ -5,6 +5,7 @@
 scrapy crawl spider -o data.json<br>
 参照scrapy的数据导出<br>
 # fofa.ini <br>
+不登陆账号仅且只能爬取1页
 {<br>
 'cookie':'存放已登陆账号cookie中： _fofapro_ars_session=xxxxx  中的xxxxx',<br>
 'page':'你要提取的页数',<br>

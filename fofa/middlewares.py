@@ -90,7 +90,7 @@ class FofaDownloaderMiddleware(object):
         # - or raise IgnoreRequest
         if not response.status == 200:
             print('[$]遇到错误状态吗。正在重试////')
-            sleep(3)
+            sleep(5)
             return request
         else:
             return response

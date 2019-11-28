@@ -1,7 +1,7 @@
 # fofa-IP-tool
 批量提取fofa查询结果（域名 IP title）
 
-< spider文件夹
+< spider文件夹 >
 # exec <br>
 scrapy crawl spider -o data.json<br>
 参照scrapy的数据导出<br>
@@ -16,7 +16,7 @@ scrapy crawl spider -o data.json<br>
 # 数据示例<br>
 ![Image text](https://github.com/k-fire/fofa-IP-tool/blob/master/img.png?raw=true)
 
-< api文件夹（仅适用于会员）
+< api文件夹（仅适用于会员）>
 # input <br>
 运行前你需要配置fofa.ini<br>
 运行后你需要输入一个字典<br>

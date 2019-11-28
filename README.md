@@ -13,7 +13,7 @@ scrapy crawl spider -o data.json<br>
 'rules':'查询规则"'<br>
 }<br>
 ### 数据示例<br>
-![Image text](https://github.com/k-fire/fofa-IP-tool/blob/master/spider/img.png?raw=true)
+![Image text](https://github.com/k-fire/fofa-IP-tool/blob/master/spider/img.png?raw=true)<br>
 
 ## < api文件夹（仅适用于会员）><br>
 ### input<br>
@@ -21,7 +21,7 @@ scrapy crawl spider -o data.json<br>
 运行后你需要输入一个字典<br>
 参照 {'rule':'domain="baidu.com"','page':'','size':'','fields':'host','is_full':''}<br>
 每个选项参考官方接口<br>
-![Image text](https://github.com/k-fire/fofa-IP-tool/blob/master/api/api.bmp?raw=true)
+![Image text](https://github.com/k-fire/fofa-IP-tool/blob/master/api/api.bmp?raw=true)<br>
  数据示例<br>
-![Image text](https://github.com/k-fire/fofa-IP-tool/blob/master/api/img.bmp?raw=true)
+![Image text](https://github.com/k-fire/fofa-IP-tool/blob/master/api/img.bmp?raw=true)<br>
 <

@@ -2,7 +2,7 @@
 批量提取fofa查询结果（域名 IP title）
 
 < spider文件夹 >
- exec <br>
+## exec <br>
 scrapy crawl spider -o data.json<br>
 参照scrapy的数据导出<br>
  fofa.ini <br>
@@ -20,8 +20,8 @@ scrapy crawl spider -o data.json<br>
  input <br>
 运行前你需要配置fofa.ini<br>
 运行后你需要输入一个字典<br>
-参照 {'rule':'domain="baidu.com"','page':'','size':'','fields':'host','is_full':''}
-每个选项参考官方接口
+参照 {'rule':'domain="baidu.com"','page':'','size':'','fields':'host','is_full':''}<br>
+每个选项参考官方接口<br>
 ![Image text](https://github.com/k-fire/fofa-IP-tool/blob/master/api/api.bmp?raw=true)
  数据示例<br>
 ![Image text](https://github.com/k-fire/fofa-IP-tool/blob/master/api/img.bmp?raw=true)

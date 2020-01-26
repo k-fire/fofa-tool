@@ -1,4 +1,4 @@
-# fofa-IP-tool
+# fofa-tool
 批量提取fofa查询结果（域名 IP title）
 
 ## < spider文件夹 ><br>

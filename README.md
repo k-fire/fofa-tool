@@ -1,6 +1,8 @@
 # fofa-tool
 批量提取fofa查询结果（域名 IP title）
 
+https://s0s.cc/811.html
+
 ## < spider文件夹 ><br>
 ### exec<br>
 scrapy crawl spider -o data.json<br>

@@ -29,7 +29,7 @@ def main(ini):
 
 def get_json(ini,args_list):
     headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0'}
-    url = 'https://fofa.so/api/v1/search/all?email=%s&key=%s&qbase64=%s'%(ini['email'],ini['key'],args_list['rule'])
+    url = 'https://fofa.info/api/v1/search/all?email=%s&key=%s&qbase64=%s'%(ini['email'],ini['key'],args_list['rule'])
     if args_list['page']:
         url += '&page=%s'%(args_list['page'])
     if args_list['size']:

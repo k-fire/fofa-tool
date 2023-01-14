@@ -3,7 +3,7 @@
 
 https://kfi.re/811.html
 
-## < spider文件夹 ><br>
+## < spider文件夹 ><br>（无人维护）
 ### exec<br>
 scrapy crawl spider -o data.json<br>
 参照scrapy的数据导出<br>
